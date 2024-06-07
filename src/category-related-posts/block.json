@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/category-related-posts",
+	"version": "0.1.0",
+	"title": "Related Posts",
+	"category": "text",
+	"icon": "text",
+	"description": "Related Posts display in with row and columns",
+	"example": {},
+	"attributes": {
+		"relatedPosts": {
+			"type": "array",
+			"default": []
+		},
+		"heading": {
+			"type": "string"
+		},
+		"colorValue" : {
+			"type": "string",
+			"default": ""
+		},
+		"backgroundColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+		"textAlign": {
+      "type": "string",
+      "default": "left"
+    },
+		"relatedPostsTitle" : {
+			"type": "string",
+			"default": ""
+		},
+		"relatedPostsDescription" : {
+			"type": "string",
+			"default": ""
+		},
+		"columnValue": {
+			"type": "number",
+			"default": 1
+		},
+		"postToDisplay": {
+			"type": "number",
+			"default": 3
+		},
+		"headingTags": {
+			"type": "string",
+			"default": "h2"
+		}
+},
+	"textdomain": "relatedPosts",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

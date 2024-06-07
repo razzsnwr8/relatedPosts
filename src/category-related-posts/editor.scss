@@ -1,0 +1,77 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.editor-styles-wrapper .is-root-container a  {
+	text-decoration: none !important;
+}
+
+.alignleft {
+  float: none;
+}
+
+// .editor-styles-wrapper .block-editor-block-list__layout.is-root-container p {
+//   margin-bottom: 4.6em;
+// }
+
+// .rich-text-heading {
+//   color: var(--wp-block-third-block-heading-color); /* Use the variable provided by WordPress for heading color */
+// }
+
+.my-color-tabs {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center; /* Adjust as needed */
+  margin-bottom: 20px; /* Example margin, adjust as needed */
+}
+
+.relatedPostList {
+  box-sizing: border-box;
+  padding: 1rem;
+  max-width: 720px;
+  position: relative;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: block;
+  border-radius: 8px;
+}
+
+.relatedPostList:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transform: scale(1);
+}
+
+.relatedPostTitle {
+  margin: 0;
+  padding: 0;
+}
+
+.relatedpostContent {
+  margin-top: 2px;
+}
+
+
+.relatedPost {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.relatedPost.relatedPostColumns-2 .relatedPostList {
+  width: calc(50% - 20px); /* Adjust width for two columns */
+}
+
+.relatedPost.relatedPostColumns-3 .relatedPostList {
+  width: calc(33.33% - 20px); /* Adjust width for three columns */
+}
+
+.relatedPost.relatedPostColumns-4 .relatedPostList {
+  width: calc(25% - 20px); /* Adjust width for four columns */
+}
+
+b, strong {
+  font-weight: bold;
+}
+

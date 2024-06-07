@@ -1,0 +1,49 @@
+ul {
+  list-style-type: none;
+}
+
+.ast-single-post .entry-content a, .ast-comment-content a:not(.ast-comment-edit-reply-wrap a) {
+  text-decoration: none;
+}
+
+.relatedPost {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+a.relatedPost {
+  text-decoration: none;
+}
+
+.relatedPost.relatedPostColumns-2 .relatedPostList {
+  width: calc(50% - 20px); /* Adjust width for two columns */
+}
+
+.relatedPost.relatedPostColumns-3 .relatedPostList {
+  width: calc(33.33% - 20px); /* Adjust width for three columns */
+}
+
+.relatedPost.relatedPostColumns-4 .relatedPostList {
+  width: calc(25% - 20px); /* Adjust width for four columns */
+}
+
+.relatedPostList {
+  box-sizing: border-box;
+  padding: 1rem;
+  max-width: 720px;
+  position: relative;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: block;
+  border-radius: 8px;
+}
+
+.relatedPostList:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transform: scale(1);
+}
+
+// make font bold
+b, strong {
+  font-weight: bold;
+}
